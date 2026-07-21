@@ -31,3 +31,13 @@ def con (usd):
 
 con(10)
 
+# 
+
+def odd_even(num):
+    if (num % 2 == 0):
+        return "even"
+    else:
+        return "odd"
+    
+num = int(input("Enter num:"))
+print(odd_even(num))
