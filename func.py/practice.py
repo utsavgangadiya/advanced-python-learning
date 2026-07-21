@@ -24,3 +24,10 @@ def cal_fact(num):
     return fact
 
 print(cal_fact(5))
+
+def con (usd):
+    inr = usd *93
+    print(usd , "USD = ",inr, "INR")
+
+con(10)
+
