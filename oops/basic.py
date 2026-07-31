@@ -18,3 +18,6 @@ class student :
 
 s1 = student("utsav gangadiya")
 print(s1.name)
+
+fd=12
+print(fd)
