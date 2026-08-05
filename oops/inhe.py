@@ -1,3 +1,5 @@
+# single inheritance  
+
 class car:
     color="black"
     @staticmethod
@@ -19,3 +21,25 @@ print(car1.name)
 print(car1.start())
 print(car1.color)
 
+# multi-level inheritance
+print("----------------------------")
+class car:
+    @staticmethod
+    def start():
+        print("car stared...")
+
+    @staticmethod
+    def stop():
+        print("car stoped.")
+
+class toyotocar(car):
+    def __init__(self,brand):
+        self.brand = brand
+
+
+class fortuner(toyotocar):
+    def __init__(self,type):
+        self.type = type
+
+car4 = fortuner("diesel")
+car4.start()
