@@ -23,6 +23,8 @@ print(car1.color)
 
 # multi-level inheritance
 print("----------------------------")
+
+
 class car:
     @staticmethod
     def start():
@@ -43,3 +45,22 @@ class fortuner(toyotocar):
 
 car4 = fortuner("diesel")
 car4.start()
+
+# multiple inheritance
+
+print("----------------------------")
+
+class A:
+    vara="welcome to a"
+
+class B:
+    varb="welcome to b"
+
+class C(A,B):
+    varc = "welcome to c"
+
+c1 = C()
+
+print(c1.varc)
+print(c1.varb)
+print(c1.vara)
