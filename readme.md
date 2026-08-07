@@ -12,4 +12,4 @@ This repository is not meant to be a finished project. Instead, it is a record o
 
 Thank you for visiting my repository. I hope it reflects my consistency, curiosity, and passion for learning Python. More updates and projects will be added as I continue my journey.
 
-# Happy Coding! 🚀
+## Happy Coding! 🚀
