@@ -3,5 +3,5 @@ def palin (s):
     
 value = input("Enter your palindrom")
 
-# print(palin("nitin"))
-# print(palin("utsav"))
+print(palin("nitin"))
+print(palin("utsav"))
