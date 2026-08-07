@@ -1,6 +1,6 @@
 # 🐍 Python Learning Journey
 
-Welcome to my Python Learning repository!
+## Welcome to my Python Learning repository!
 
 This repository is a collection of my daily Python practice, coding exercises, examples, and mini projects. I created this repository to document my learning journey and track my progress as I continue improving my Python programming skills. Every day, I try to learn something new, practice it by writing code, and upload my work to GitHub.
 
