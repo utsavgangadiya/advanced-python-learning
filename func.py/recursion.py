@@ -55,3 +55,17 @@ def list_item (list,idx=0):
 
 list = ["utsav","heli","sara"]
 list_item(list)
+
+# Sum of odd numbers
+
+def odd_sum(n):
+    if n == 0:
+        return 0
+
+    if n % 2 != 0:
+        return n + odd_sum(n - 1)
+
+    return odd_sum(n - 1)
+
+
+print(odd_sum(10))
