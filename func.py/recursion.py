@@ -69,3 +69,14 @@ def odd_sum(n):
 
 
 print(odd_sum(10))
+
+# power of number 
+
+def power(base, exp):
+    if exp == 0:
+        return 1
+
+    return base * power(base, exp - 1)
+
+
+print(power(2, 5))
